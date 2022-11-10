@@ -35,14 +35,18 @@ body {
     padding-top:100px;
 }
 .title{
-    font-size:150px;
+    font-size:135px;
     position:relative;
     left:50px;
-    top:-160px;
+    top:-140px;
 }
 .bodypar{
-    font-size:25px;
+    font-size:20px;
     margin-top: -170px
+}
+.footer-logo{
+    position:relative;
+    margin-top:70px;
 }
 
 ul li {
