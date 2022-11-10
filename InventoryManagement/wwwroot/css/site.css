@@ -15,11 +15,10 @@ html {
 
 body {
     overflow: hidden;
-    margin-bottom: 60px;
+    margin:0px;
     background-color: rgb(79, 169, 184);
-    height:contain;
-}
 
+}
 .ContainerLeft {
     overflow: hidden;
     color: white;
@@ -34,11 +33,36 @@ body {
     padding:45px;
     padding-top:100px;
 }
-.title{
-    font-size:150px;
-    position:relative;
-    left:50px;
-    top:-160px;
+
+.ContainerRight {
+    overflow: hidden;
+    color: white;
+    position: absolute;
+    height: auto;
+    top: 150px;
+    color: rgb(32, 43, 48);
+    font-family: 'Sans Serif Collection';
+    padding: 45px;
+    padding-top: 100px;
+    font-size: 20px;
+}
+.logo {
+    font-size: 20px;
+    position: relative;
+    width: 550px;
+    left: 50px;
+    top: 115px;
+    padding: 30px;
+    color: rgb(79, 169, 184);
+}
+.icons {
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+}
+.icons i {
+    margin-bottom: 5px;
+    font-size: 40px;
 }
 .bodypar{
     font-size:25px;
