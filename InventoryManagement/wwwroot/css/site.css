@@ -33,6 +33,7 @@ body {
     padding:45px;
     padding-top:100px;
 }
+<<<<<<< HEAD
 
 .ContainerRight {
     overflow: hidden;
@@ -63,10 +64,21 @@ body {
 .icons i {
     margin-bottom: 5px;
     font-size: 40px;
+=======
+.title{
+    font-size:135px;
+    position:relative;
+    left:50px;
+    top:-140px;
+>>>>>>> 7486d817e28288dcfa5305aaccb36ba1d11afcd8
 }
 .bodypar{
-    font-size:25px;
+    font-size:20px;
     margin-top: -170px
+}
+.footer-logo{
+    position:relative;
+    margin-top:70px;
 }
 
 ul li {
