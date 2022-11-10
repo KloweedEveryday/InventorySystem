@@ -1,39 +1,38 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
     overflow: hidden;
-    margin:0px;
+    margin: 0px;
     background-color: rgb(79, 169, 184);
-
 }
+
 .ContainerLeft {
     overflow: hidden;
     color: white;
     background-color: rgb(32, 43, 48);
     border-radius: 0px 320px 0px 0px;
-    position:absolute;
-    left:-10px;
+    position: absolute;
+    left: -10px;
     height: 800PX;
     width: 800px;
     color: white;
-    font-family:'Sans Serif Collection';
-    padding:45px;
-    padding-top:100px;
+    font-family: 'Sans Serif Collection';
+    padding: 45px;
+    padding-top: 100px;
 }
-<<<<<<< HEAD
 
 .ContainerRight {
     overflow: hidden;
@@ -47,6 +46,7 @@ body {
     padding-top: 100px;
     font-size: 20px;
 }
+
 .logo {
     font-size: 20px;
     position: relative;
@@ -56,29 +56,33 @@ body {
     padding: 30px;
     color: rgb(79, 169, 184);
 }
+
 .icons {
     position: absolute;
     padding: 0px;
     margin: 0px;
 }
-.icons i {
-    margin-bottom: 5px;
-    font-size: 40px;
-=======
-.title{
-    font-size:135px;
-    position:relative;
-    left:50px;
-    top:-140px;
->>>>>>> 7486d817e28288dcfa5305aaccb36ba1d11afcd8
+
+    .icons i {
+        margin-bottom: 5px;
+        font-size: 40px;
+    }
+
+.title {
+    font-size: 135px;
+    position: relative;
+    left: 50px;
+    top: -140px;
 }
-.bodypar{
-    font-size:20px;
+
+.bodypar {
+    font-size: 20px;
     margin-top: -170px
 }
-.footer-logo{
-    position:relative;
-    margin-top:70px;
+
+.footer-logo {
+    position: relative;
+    margin-top: 70px;
 }
 
 ul li {
@@ -87,6 +91,3 @@ ul li {
     font-weight: 600;
     font-family: 'Sans Serif Collection';
 }
-
-
-
