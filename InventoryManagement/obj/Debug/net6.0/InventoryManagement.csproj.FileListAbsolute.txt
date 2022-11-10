@@ -1077,6 +1077,7 @@ C:\Users\KloweedEveryday\Documents\GitHub\InventorySystem\InventoryManagement\ob
 C:\Users\KloweedEveryday\Documents\GitHub\InventorySystem\InventoryManagement\obj\Debug\net6.0\InventoryManagement.pdb
 C:\Users\KloweedEveryday\Documents\GitHub\InventorySystem\InventoryManagement\obj\Debug\net6.0\InventoryManagement.genruntimeconfig.cache
 C:\Users\KloweedEveryday\Documents\GitHub\InventorySystem\InventoryManagement\obj\Debug\net6.0\ref\InventoryManagement.dll
+<<<<<<< HEAD
 H:\Other computers\Office Unit\SCHOOLYARN\2022-2023\EVEDRI\Enrollment\InventorySystem\InventoryManagement\bin\Debug\net6.0\appsettings.Development.json
 H:\Other computers\Office Unit\SCHOOLYARN\2022-2023\EVEDRI\Enrollment\InventorySystem\InventoryManagement\bin\Debug\net6.0\appsettings.json
 H:\Other computers\Office Unit\SCHOOLYARN\2022-2023\EVEDRI\Enrollment\InventorySystem\InventoryManagement\bin\Debug\net6.0\InventoryManagement.staticwebassets.runtime.json
@@ -1635,3 +1636,5 @@ C:\Users\ADMIN\Desktop\InventorySystem\InventoryManagement\obj\Debug\net6.0\refi
 C:\Users\ADMIN\Desktop\InventorySystem\InventoryManagement\obj\Debug\net6.0\InventoryManagement.pdb
 C:\Users\ADMIN\Desktop\InventorySystem\InventoryManagement\obj\Debug\net6.0\InventoryManagement.genruntimeconfig.cache
 C:\Users\ADMIN\Desktop\InventorySystem\InventoryManagement\obj\Debug\net6.0\ref\InventoryManagement.dll
+=======
+>>>>>>> 7486d817e28288dcfa5305aaccb36ba1d11afcd8
