@@ -4,47 +4,50 @@
 @{
     ViewData["Title"] = "Edit";
 }
+<div class="index">
+    <h1>Edit</h1>
 
-<h1>Edit</h1>
-
-<h4>Personel_Details</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form method="post">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Personel_Details.ID" />
-            <div class="form-group">
-                <label asp-for="Personel_Details.Name" class="control-label"></label>
-                <input asp-for="Personel_Details.Name" class="form-control" />
-                <span asp-validation-for="Personel_Details.Name" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Personel_Details.Age" class="control-label"></label>
-                <input asp-for="Personel_Details.Age" class="form-control" />
-                <span asp-validation-for="Personel_Details.Age" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Personel_Details.Contact" class="control-label"></label>
-                <input asp-for="Personel_Details.Contact" class="form-control" />
-                <span asp-validation-for="Personel_Details.Contact" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Personel_Details.Email" class="control-label"></label>
-                <input asp-for="Personel_Details.Email" class="form-control" />
-                <span asp-validation-for="Personel_Details.Email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
+    <h4>Personel_Details</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="Personel_Details.ID" />
+                <div class="form-group">
+                    <label asp-for="Personel_Details.Name" class="control-label"></label>
+                    <input asp-for="Personel_Details.Name" class="form-control" />
+                    <span asp-validation-for="Personel_Details.Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Personel_Details.Age" class="control-label"></label>
+                    <input asp-for="Personel_Details.Age" class="form-control" />
+                    <span asp-validation-for="Personel_Details.Age" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Personel_Details.Contact" class="control-label"></label>
+                    <input asp-for="Personel_Details.Contact" class="form-control" />
+                    <span asp-validation-for="Personel_Details.Contact" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Personel_Details.Email" class="control-label"></label>
+                    <input asp-for="Personel_Details.Email" class="form-control" />
+                    <span asp-validation-for="Personel_Details.Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
     </div>
-</div>
 
-<div>
-    <a asp-page="./Index">Back to List</a>
-</div>
+    <div>
+        <a asp-page="./Index">Back to List</a>
+    </div>
 
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+</div>

@@ -95,6 +95,27 @@ ul li {
         font-size: 20px;
         font-family: 'Sans Serif Collection';
         border-bottom:inset;
-        border-color: rgb(32, 43, 48)
+        border-color: rgb(32, 43, 48);
     }
+
+.index {
+    margin: 200px;
+    padding: 40px;
+    position: absolute;
+    width: 75%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+    background-color: rgb(32, 43, 48);
+    color: white
+}
+.create-container {
+    margin-top: 85px;
+    padding: 40px;
+    position: absolute;
+    width: 75%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+    background-color: rgb(32, 43, 48);
+    color: white
+}
 
