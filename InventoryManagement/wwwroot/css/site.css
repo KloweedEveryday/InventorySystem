@@ -14,10 +14,11 @@ html {
 }
 
 body {
-    overflow: hidden;
     margin: 0px;
     background-color: rgb(79, 169, 184);
 }
+
+
 .ContainerLeft {
     overflow: hidden;
     color: white;
@@ -99,7 +100,8 @@ ul li {
     }
 
 .index {
-    margin: 200px;
+    margin-top:10%;
+    margin-left: 13%;
     padding: 40px;
     position: absolute;
     width: 75%;
