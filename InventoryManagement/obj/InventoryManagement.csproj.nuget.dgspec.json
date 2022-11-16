@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KloweedEveryday\\Documents\\GitHub\\InventorySystem\\InventoryManagement\\InventoryManagement.csproj": {}
+    "C:\\Users\\DNTS\\Documents\\GitHub\\InventorySystem\\InventoryManagement\\InventoryManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KloweedEveryday\\Documents\\GitHub\\InventorySystem\\InventoryManagement\\InventoryManagement.csproj": {
+    "C:\\Users\\DNTS\\Documents\\GitHub\\InventorySystem\\InventoryManagement\\InventoryManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KloweedEveryday\\Documents\\GitHub\\InventorySystem\\InventoryManagement\\InventoryManagement.csproj",
+        "projectUniqueName": "C:\\Users\\DNTS\\Documents\\GitHub\\InventorySystem\\InventoryManagement\\InventoryManagement.csproj",
         "projectName": "InventoryManagement",
-        "projectPath": "C:\\Users\\KloweedEveryday\\Documents\\GitHub\\InventorySystem\\InventoryManagement\\InventoryManagement.csproj",
-        "packagesPath": "C:\\Users\\KloweedEveryday\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KloweedEveryday\\Documents\\GitHub\\InventorySystem\\InventoryManagement\\obj\\",
+        "projectPath": "C:\\Users\\DNTS\\Documents\\GitHub\\InventorySystem\\InventoryManagement\\InventoryManagement.csproj",
+        "packagesPath": "C:\\Users\\DNTS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DNTS\\Documents\\GitHub\\InventorySystem\\InventoryManagement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\KloweedEveryday\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DNTS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -83,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

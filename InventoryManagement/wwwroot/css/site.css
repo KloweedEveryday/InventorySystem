@@ -14,10 +14,11 @@ html {
 }
 
 body {
-    overflow: hidden;
     margin: 0px;
     background-color: rgb(79, 169, 184);
 }
+
+
 .ContainerLeft {
     overflow: hidden;
     color: white;
@@ -25,7 +26,7 @@ body {
     border-radius: 0px 320px 0px 0px;
     position: absolute;
     left: -10px;
-    height: 900PX;
+    height: 1000PX;
     width: 50%;
     color: white;
     font-family: 'Sans Serif Collection';
@@ -95,6 +96,28 @@ ul li {
         font-size: 20px;
         font-family: 'Sans Serif Collection';
         border-bottom:inset;
-        border-color: rgb(32, 43, 48)
+        border-color: rgb(32, 43, 48);
     }
+
+.index {
+    margin-top:10%;
+    margin-left: 13%;
+    padding: 40px;
+    position: absolute;
+    width: 75%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+    background-color: rgb(32, 43, 48);
+    color: white
+}
+.create-container {
+    margin-top: 85px;
+    padding: 40px;
+    position: absolute;
+    width: 75%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+    background-color: rgb(32, 43, 48);
+    color: white
+}
 

@@ -4,16 +4,19 @@
 @{
     ViewData["Title"] = "Create";
 }
-
+@{
+    Models.Proccess proc = new Models.Proccess();
+}
+<div class="index create-container">
 <h1>Create</h1>
 
-<h4>DeliveredDetails</h4>
+<h4>Delivered Details</h4>
 <hr />
-<div class="row">
-    <div class="col-md-4">
+    <div class="row">
+        <div class="col-sm-3">
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
+            <div class="">
                 <label asp-for="DeliveredDetails.Brand" class="control-label"></label>
                 <input asp-for="DeliveredDetails.Brand" class="form-control" />
                 <span asp-validation-for="DeliveredDetails.Brand" class="text-danger"></span>
@@ -35,7 +38,14 @@
             </div>
             <div class="form-group">
                 <label asp-for="DeliveredDetails.Personel" class="control-label"></label>
-                <input asp-for="DeliveredDetails.Personel" class="form-control" />
+                <select asp-for="DeliveredDetails.Personel" class="form-control">
+                    @{
+                        for (int i = 0; i < proc.ProccessList.Count; i++)
+                            {
+                                <option value="@proc.ProccessList[i]">@proc.ProccessList[i]</option>
+                            }
+                    }
+                 </select>
                 <span asp-validation-for="DeliveredDetails.Personel" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -57,3 +67,4 @@
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
+</div>
