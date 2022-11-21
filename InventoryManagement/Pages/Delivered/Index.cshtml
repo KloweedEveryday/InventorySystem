@@ -4,66 +4,97 @@
 @{
     ViewData["Title"] = "Index";
 }
-<div class="index">
-    <h1>Delivery</h1>
+<script src="https://kit.fontawesome.com/2af456f012.js" crossorigin="anonymous"></script>
 
-    <p>
-        <a asp-page="Create">Create New</a>
-    </p>
-    <table class="table text-white">
-        <thead>
-            <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.DeliveredDetails[0].Brand)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.DeliveredDetails[0].Manufacturer)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.DeliveredDetails[0].Cases)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.DeliveredDetails[0].Quantity_Per_Case)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.DeliveredDetails[0].Personel)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.DeliveredDetails[0].DateDelivered)
-                </th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model.DeliveredDetails)
-            {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Brand)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Manufacturer)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Cases)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Quantity_Per_Case)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Personel)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.DateDelivered)
-                    </td>
-                    <td>
-                        <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
-                        <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
-                        <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
-
+<header>
+    <nav class="navbar navbar-expand-lg p-4" style="position:absolute; right:0px;">
+        <ul class="navbar-nav">
+            <li class="nav-item active border-bottom-1">
+                <a href="~/Index">Home</a>
+            </li>
+            <li class="nav-item active">
+                <a href="~/Personel">Personnels</a>
+            </li>
+            <li class="nav-item active" style="border-bottom: inset;">
+                <a href="~/Delivered">Delivery</a>
+            </li>
+            <li class="nav-item">
+                <a href="#">Contacts</a>
+            </li>
+            <li class="nav-item">
+                <a href="~/About">About</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div class="index" style="color:#202B30;">
+    <div class="card bg-transparent" style="border-radius: 20px;">
+        <div class="card-header">
+            <h1 class="card-title p-1 ">
+                Delivery
+            </h1>
+            <a asp-page="Create" class="btn btn-outline-info float-end text-white text-uppercase" style="border-color:white">Create New</a>
+        </div>
+        <div class="card-body table-responsive p-0" style="height: 300px;">
+            <div class="card-body p-0">
+                <table class="table table-head-fixed text-nowrap">
+                   <thead style="position:sticky; top:0px;background-color:#4DA4B2">
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.DeliveredDetails[0].Brand)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.DeliveredDetails[0].Manufacturer)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.DeliveredDetails[0].Cases)
+                            </th>
+                            <th>
+                                Quantity Per Case
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.DeliveredDetails[0].Personel)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.DeliveredDetails[0].DateDelivered)
+                            </th>
+                            <th>
+                                Modify
+                            </th>
+                        </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.DeliveredDetails)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Brand)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Manufacturer)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Cases)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Quantity_Per_Case)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Personel)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DateDelivered)
+                            </td>
+                            <td>
+                                    <a asp-page="./Edit" asp-route-id="@item.ID"><i class="fa-solid fa-pen-to-square"></i></a> |
+                                    <a asp-page="./Details" asp-route-id="@item.ID"><i class="fa-solid fa-circle-info"></i></a> |
+                                    <a asp-page="./Delete" asp-route-id="@item.ID"><i class="fa-solid fa-trash"></i></a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            </div>
+        </div>
+    </div>
 </div>

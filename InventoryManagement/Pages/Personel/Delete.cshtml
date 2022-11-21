@@ -5,8 +5,8 @@
     ViewData["Title"] = "Delete";
 }
 
-<div class="index">
-<h1>Delete</h1>
+<div class="index" style="position:absolute; top: 5px;width: 40%;left:17%; top:-20px">
+    <h1>Delete</h1>
 
 <h3>Are you sure you want to delete this?</h3>
 <div>
@@ -42,7 +42,7 @@
     <form method="post">
         <input type="hidden" asp-for="Personel_Details.ID" />
         <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-page="./Index">Back to List</a>
+        <a asp-page="./Index" class="btn btn-primary">Back to List</a>
     </form>
 </div>
 </div>

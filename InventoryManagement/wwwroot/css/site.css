@@ -14,22 +14,22 @@ html {
 }
 
 body {
-    overflow:hidden;
+    overflow: hidden;
     margin: 0px;
-    background-color: rgb(79, 169, 184);
+    background-color: rgb(32, 43, 48);
 }
 
 
 .ContainerLeft {
     overflow: hidden;
     color: white;
-    background-color: rgb(32, 43, 48);
+    background-color: rgb(79, 169, 184);
     border-radius: 0px 320px 0px 0px;
     position: absolute;
     left: -10px;
     height: 1000PX;
     width: 50%;
-    color: white;
+    color:black;
     font-family: 'Sans Serif Collection';
     padding: 45px;
     padding-top: 100px;
@@ -42,11 +42,22 @@ body {
     height: 900PX;
     width: 50%;
     top: 150px;
-    color: rgb(32, 43, 48);
+    color: #4FA9B8;
     font-family: 'Sans Serif Collection';
     padding: 45px;
     padding-top: 100px;
     font-size: 20px;
+}
+
+.create-container {
+    margin-top: 85px;
+    padding: 40px;
+    position: absolute;
+    width: 75%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+    background-color: rgb(32, 43, 48);
+    color: white
 }
 
 .logo {
@@ -56,7 +67,7 @@ body {
     left: 50px;
     top: 115px;
     padding: 30px;
-    color: rgb(79, 169, 184);
+    color: black;
 }
 
 .icons {
@@ -87,38 +98,66 @@ body {
     margin-top: 70px;
 }
 
+ul li a {
+    text-decoration: none;
+    color: #4FA9B8;
+}
+
+td a {
+    color: #202B30;
+}
 ul li {
-    margin-right: 50px;
+    text-decoration: none;
+    color: #4FA9B8;
+    margin-right: 55px;
     font-size: 20px;
     font-family: 'Sans Serif Collection';
 }
     ul li:hover {
-        margin-right: 50px;
+        margin-right: 55px;
         font-size: 20px;
         font-family: 'Sans Serif Collection';
-        border-bottom:inset;
-        border-color: rgb(32, 43, 48);
+        border-bottom: inset;
+        color: #4FA9B8;
     }
 
 .index {
-    margin-top:10%;
+    margin-top: 10%;
     margin-left: 13%;
     padding: 40px;
     position: absolute;
     width: 75%;
     border-radius: 20px;
     box-shadow: 5px 5px 10px black;
-    background-color: rgb(32, 43, 48);
-    color: white
+    background-color: #4FA9B8;
+    color: #202B30;
 }
-.create-container {
-    margin-top: 85px;
-    padding: 40px;
+
+.About {
     position: absolute;
-    width: 75%;
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px black;
-    background-color: rgb(32, 43, 48);
-    color: white
+    width: 100%;
+    height: 100%;
+    background-color: #202B30;
+    color: #4FA9B8;
+    padding:0px;
+    margin:0px;
+}
+.AboutContainer {
+    width: 80%;
+    left: 12.5%;
+    top:10%;
+    position: absolute;
+    height: 75%;
+}
+.person {
+    background-color: #4FA9B8;
+    height: 350px;
+    margin:25px;
+    border-radius:20px;
+}
+
+img{
+    height:50%;
+    width:90%;
 }
 

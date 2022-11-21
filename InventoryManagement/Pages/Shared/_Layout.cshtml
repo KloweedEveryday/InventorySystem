@@ -8,33 +8,16 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/InventoryManagement.styles.css" asp-append-version="true" />
 </head>
-<body style="margin:0px; padding:0px;">
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light float-lg-end p-4">
-            <ul class="navbar-nav">
-                <li class="nav-item active border-bottom-1">
-                    <a class="nav-link" href="Index">Home</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="Personel">Personel</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="Delivered">Delivery</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contacts</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+<body>
+   
     <div class="container m-0 p-0">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
+    @{
+            IgnoreBody();
+    }
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

@@ -5,13 +5,18 @@
     ViewData["Title"] = "Edit";
 }
 
-<div class="index">
-<h1>Edit</h1>
-
-<h4>DeliveredDetails</h4>
-<hr />
+<div class="index" style="position:absolute; top: 5px;width: 40%;left:15%; top:-20px">
+    <div class="card bg-transparent">
+        <div class="card-header"
+    <h1>Edit</h1>
+    <h4>Delivered Details
+    <a asp-page="./Index" class="btn btn-primary float-end">Back to List</a>
+    </h4>
+    <hr />
+    </div>
+<div class="card-body table-responsive p-0 p-4" style="height: 300px;overflow-x: hidden;">
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-9">
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="DeliveredDetails.ID" />
@@ -44,18 +49,12 @@
                 <label asp-for="DeliveredDetails.DateDelivered" class="control-label"></label>
                 <input asp-for="DeliveredDetails.DateDelivered" class="form-control" />
                 <span asp-validation-for="DeliveredDetails.DateDelivered" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
+                        </div>
+                        <input type="submit" value="Save" class="btn btn-primary m-2 w-25" />
+            </form>
     </div>
 </div>
-
-<div>
-    <a asp-page="./Index">Back to List</a>
-</div>
-
+        </div>
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

@@ -2,42 +2,84 @@
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
+} 
+@{
+    Layout = "";
 }
-
-<script src="https://kit.fontawesome.com/2af456f012.js" crossorigin="anonymous"></script>
-<div class="container-fluid position-absolute  m-0 p-0">
-    <div class="row p-0 m-0">
-        <div class="col-sm p-0">
-            <div class="ContainerLeft">
-                <div class="logo">
-                    <i class="fa-sharp fa-solid fa-cubes position-absolute fa-8x mt-1"></i>
-                    <div class="text-center">
-                        <h1 style="font-size:120px;margin-left:175px">VLLD</h1>
-                    </div>
-                    <p align="right">We are happy to serve you.......</p>
-                    <div class="icons row">
-                        <i class="fa-brands fa-square-facebook mt-5"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/2af456f012.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - InventoryManagement</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/InventoryManagement.styles.css" asp-append-version="true" />
+</head>
+<body style="margin:0px; padding:0px;">
+    <header>
+        <nav class="navbar navbar-expand-lg float-lg-end p-4">
+            <ul class="navbar-nav">
+                <li class="nav-item active border-bottom-1" style="border-bottom: inset;">
+                    <a href="Index">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="Personel">Personnels</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="Delivered">Delivery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Contacts</a>
+                </li>
+                <li class="nav-item">
+                    <a href="~/About/Index">About</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container-fluid position-absolute  m-0 p-0">
+        <div class="row p-0 m-0">
+            <div class="col-sm p-0">
+                <div class="ContainerLeft">
+                    <div class="logo">
+                        <i class="fa-sharp fa-solid fa-cubes position-absolute fa-8x mt-1"></i>
+                        <div class="text-center">
+                            <h1 style="font-size:120px;margin-left:175px">VLLD</h1>
+                        </div>
+                        <p align="right">We are happy to serve you.......</p>
+                        <div class="icons row mt-5">
+                            <i class="fa-brands fa-square-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col-sm p-0">
-            <div class="ContainerRight">
-                <p align="justify">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    Kapoy na kaayu ming tanan tabang hahahaha
-                    <br />
-                    <br />
-                    <button style="border-radius:20px; width:120px; background-color:rgb(79, 169, 184); color:black;">
-                        Learn More
-                    </button>
+            <div class="col-sm p-0">
+                <div class="ContainerRight">
+                    <h1>Welcome!</h1>
+                    <p align="justify">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Kapoy na kaayu ming tanan tabang hahahaha
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <button style="border-radius:20px; width:120px; background-color:rgb(79, 169, 184); color:black;">
+                            
+                            Learn More
+                        </button>
+                </div>
             </div>
         </div>
     </div>
-</div>
+</body>
+</html>
+

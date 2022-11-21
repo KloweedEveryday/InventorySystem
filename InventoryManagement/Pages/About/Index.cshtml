@@ -1,0 +1,94 @@
+﻿@page
+@model InventoryManagement.Pages.About.IndexModel
+@{
+    ViewData["Title"] = "Index";
+}
+@{
+    string KLOYD = "https://scontent.fmnl25-1.fna.fbcdn.net/v/t39.30808-6/309744592_5881675865217810_7091363469412570795_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=174925&_nc_eui2=AeGN4H0ImhoG2S-j1LsK7CTY1Tq3ZCEnFmjVOrdkIScWaIUsE3PENkdFgP-UEnqKrcoDVH2higWaPlf26S4CPmLp&_nc_ohc=kRZiKkaZ1EYAX_Xqxe1&_nc_ht=scontent.fmnl25-1.fna&oh=00_AfDYMZKhQ6LuSXP6r2283ZkfoNhY7cXHBUPncXwG3i4qhA&oe=6380336A";
+    string DANIEL = "https://scontent.fmnl25-4.fna.fbcdn.net/v/t39.30808-6/287454785_715371623009214_2708427972147488662_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeF-lz_b8MRdNzBVOc761XbxbzGrhEBjuJZvMauEQGO4lq0gecbvLjA9NmVv68pPFjdC6WF9QfupxOzUI7lSNo6V&_nc_ohc=Wu21X7zDXloAX8huuGw&tn=lPtzdL0HzxDf7GsU&_nc_ht=scontent.fmnl25-4.fna&oh=00_AfBF4igEY1klZINHK2Vkv_ZwoimxAVG--EEYcGFqOXKm-Q&oe=637FF3B6";
+    string MITCH = "https://scontent.fmnl25-4.fna.fbcdn.net/v/t39.30808-6/275173076_4626887164101305_1554854026823162370_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=174925&_nc_eui2=AeHePMHl8aaWNbN3t0KbAMsVfm5dT8ub3X1-bl1Py5vdfQz4_jwAoRN0Hcz0ViJvobkEV5XSO59kBNviQO8LHJC3&_nc_ohc=ypcRYpgDj-4AX_ZIQ3x&_nc_ht=scontent.fmnl25-4.fna&oh=00_AfCpA8IyHyAWe-vUVzDvIIxkzBIdEMUJUq3y7VWfj6D_YQ&oe=637F683C";
+    string JK = "https://scontent.fmnl25-1.fna.fbcdn.net/v/t39.30808-1/299971213_5446709895420916_6920227644148545120_n.jpg?stp=dst-jpg_p200x200&_nc_cat=108&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeFOm0qwNW9Uz5RGpN9Qg7Ulob88XasJaLOhvzxdqwlosy3yzGQkl7swLS3GMbzBQbwI-T97yrRx4sf0FtE4dpAC&_nc_ohc=CddJSH6xOPIAX-ZfqTe&_nc_ht=scontent.fmnl25-1.fna&oh=00_AfDOpm7NpNWuFwEZQqxXjvS4Z2P_WeevBaLU6Pmn0giZ7g&oe=6380D5EA";
+}
+<script src="https://kit.fontawesome.com/2af456f012.js" crossorigin="anonymous"></script>
+
+<div class="About">
+    <div class="AboutContainer align-content-center" align="center" >
+        <h1 style="font-weight:550;font-size:100px;">OUR TEAM</h1>
+        <hr style="height:3px"/>
+            <div class="container" style="position:absolute;">
+                    <div class="row ">
+                        <div class="col-sm-2 person text-black" style="margin-left:10%">
+                            <br />
+                            <img src="@MITCH" class="rounded-circle"></img>
+                            <br />
+                            <h4>
+                                MITCH<br />
+                                UX
+                            </h4>
+                            <hr class="bg-black" />
+                            <div class="row text-black" style="width:100px">
+                                <div class="col m-0 p-0">
+                                    <i class="fa-brands fa-instagram fa-3x"></i>
+                                </div>
+                                <div class="col m-0 p-0">
+                                    <i class="fa-brands fa-square-facebook fa-3x"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 person text-black">
+                            <br />
+                            <img src="@JK" class="rounded-circle"></img>
+                            <br />
+                            <h4>
+                                JOHN KENNETH<br />
+                                UI
+                            </h4>
+                            <hr class="bg-black" />
+                            <div class="row text-black" style="width:100px">
+                                <div class="col m-0 p-0">
+                                    <i class="fa-brands fa-instagram fa-3x"></i>
+                                </div>
+                                <div class="col m-0 p-0">
+                                    <i class="fa-brands fa-square-facebook fa-3x"></i>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-sm-2 person text-black"><br />
+                            <img src="@KLOYD" class="rounded-circle"></img>
+                            <br/>
+                            <h4>KLOYD<br/>
+                            Programmer 1
+                            </h4>
+                            <hr class="bg-black"/>
+                            <div class="row text-black" style="width:100px">
+                                <div class="col m-0 p-0">
+                                    <i class="fa-brands fa-instagram fa-3x"></i>
+                                </div>
+                                <div class="col m-0 p-0">
+                                    <i class="fa-brands fa-square-facebook fa-3x"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 person text-black"><br />
+                            <img src="@DANIEL" class="rounded-circle"></img>
+                            <br/>
+                            <h4>DANIEL<br/>
+                            Programmer 2
+                            </h4>
+                            <hr class="bg-black"/>
+                            <div class="row text-black" style="width:100px">
+                                <div class="col m-0 p-0">
+                                    <i class="fa-brands fa-instagram fa-3x"></i>
+                                </div>
+                                <div class="col m-0 p-0">
+                                    <i class="fa-brands fa-square-facebook fa-3x"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            <a href="~/Index" class="btn btn-outline-light" style="width:100px;border-color:#4FA9B8;position:absolute;left:45%;">Home</a>
+            </div>
+    </div>
+
+</div>

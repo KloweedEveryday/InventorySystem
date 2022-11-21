@@ -7,64 +7,69 @@
 @{
     Models.Proccess proc = new Models.Proccess();
 }
-<div class="index create-container">
-<h1>Create</h1>
-
-<h4>Delivered Details</h4>
-<hr />
-    <div class="row">
-        <div class="col-sm-3">
-        <form method="post">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="">
-                <label asp-for="DeliveredDetails.Brand" class="control-label"></label>
-                <input asp-for="DeliveredDetails.Brand" class="form-control" />
-                <span asp-validation-for="DeliveredDetails.Brand" class="text-danger"></span>
+<div class="index" style="position:absolute; top: 5px;width: 40%;left:15%; top:-20px">
+    <div class="card bg-transparent">
+        <div class="card-header">
+            <h1>Create</h1>
+            <h4>Delivered Details
+                <a href="Index">
+                    <input type="button" class="btn btn-primary float-end m-3" value="Back to List"></input>
+                </a>
+            </h4>
+            <hr />
+        </div>
+        <div class="card-body table-responsive p-0 p-4" style="height: 300px;overflow-x: hidden;">
+            <div class="row">
+                <div class="col-10 m-2">
+                    <form method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="">
+                            <label asp-for="DeliveredDetails.Brand" class="control-label"></label>
+                            <input asp-for="DeliveredDetails.Brand" class="form-control" />
+                            <span asp-validation-for="DeliveredDetails.Brand" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="DeliveredDetails.Manufacturer" class="control-label"></label>
+                            <input asp-for="DeliveredDetails.Manufacturer" class="form-control" />
+                            <span asp-validation-for="DeliveredDetails.Manufacturer" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="DeliveredDetails.Cases" class="control-label"></label>
+                            <input asp-for="DeliveredDetails.Cases" class="form-control" />
+                            <span asp-validation-for="DeliveredDetails.Cases" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label>Quantity Per Case</label>
+                            <input asp-for="DeliveredDetails.Quantity_Per_Case" class="form-control" />
+                            <span asp-validation-for="DeliveredDetails.Quantity_Per_Case" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="DeliveredDetails.Personel" class="control-label"></label>
+                            <select asp-for="DeliveredDetails.Personel" class="form-control">
+                                @{
+                                    for (int i = 0; i < proc.ProccessList.Count; i++)
+                                    {
+                                        <option value="@proc.ProccessList[i]">@proc.ProccessList[i]</option>
+                                    }
+                                }
+                            </select>
+                            <span asp-validation-for="DeliveredDetails.Personel" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="DeliveredDetails.DateDelivered" class="control-label"></label>
+                            <input asp-for="DeliveredDetails.DateDelivered" class="form-control" />
+                            <span asp-validation-for="DeliveredDetails.DateDelivered" class="text-danger"></span>
+                        </div>
+                        <div class="form-group"><br />
+                            <input type="submit" value="Create" class="btn btn-primary" />
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class="form-group">
-                <label asp-for="DeliveredDetails.Manufacturer" class="control-label"></label>
-                <input asp-for="DeliveredDetails.Manufacturer" class="form-control" />
-                <span asp-validation-for="DeliveredDetails.Manufacturer" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DeliveredDetails.Cases" class="control-label"></label>
-                <input asp-for="DeliveredDetails.Cases" class="form-control" />
-                <span asp-validation-for="DeliveredDetails.Cases" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DeliveredDetails.Quantity_Per_Case" class="control-label"></label>
-                <input asp-for="DeliveredDetails.Quantity_Per_Case" class="form-control" />
-                <span asp-validation-for="DeliveredDetails.Quantity_Per_Case" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DeliveredDetails.Personel" class="control-label"></label>
-                <select asp-for="DeliveredDetails.Personel" class="form-control">
-                    @{
-                        for (int i = 0; i < proc.ProccessList.Count; i++)
-                            {
-                                <option value="@proc.ProccessList[i]">@proc.ProccessList[i]</option>
-                            }
-                    }
-                 </select>
-                <span asp-validation-for="DeliveredDetails.Personel" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DeliveredDetails.DateDelivered" class="control-label"></label>
-                <input asp-for="DeliveredDetails.DateDelivered" class="form-control" />
-                <span asp-validation-for="DeliveredDetails.DateDelivered" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
-
-<div>
-    <a asp-page="Index">Back to List</a>
-</div>
+        </div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
+</div>
 </div>

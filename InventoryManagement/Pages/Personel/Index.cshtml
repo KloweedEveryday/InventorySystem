@@ -8,18 +8,39 @@
     Models.Proccess proc = new Models.Proccess();
 }
 <script src="https://kit.fontawesome.com/2af456f012.js" crossorigin="anonymous"></script>
-    <div class="index">
-        <div class="card bg-transparent">
+   <header>
+        <nav class="navbar navbar-expand-lg p-4" style="position:absolute; right:0px;">
+            <ul class="navbar-nav">
+                <li class="nav-item active border-bottom-1">
+                    <a href="~/Index">Home</a>
+                </li>
+                <li class="nav-item active" style="border-bottom: inset;">
+                    <a href="~/Personel">Personnels</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="~/Delivered">Delivery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Contacts</a>
+                </li>
+                <li class="nav-item">
+                    <a href="~/About">About</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="index" style="color:#202B30;" >
+        <div class="card bg-transparent" style="border-radius: 20px;">
             <div class="card-header">
-            <h1 class="card-title p-1">
-                Personel
-                <a asp-page="Create" class="text-white btn btn-primary float-end text-uppercase">Add Personel</a>
+            <h1 class="card-title p-1 ">
+                Personnels
             </h1>
+            <a asp-page="Create" class="btn btn-outline-info float-end text-white text-uppercase" style="border-color:white">Add Personel</a>
             </div>
             <div class="card-body table-responsive p-0" style="height: 300px;">
-                <div class="card-body">
-                    <table class="table table-head-fixed text-nowrap text-white">
-                        <thead style="position:sticky; top:0px; background-color: rgb(32, 43, 48);">
+                <div class="card-body p-0">
+                    <table class="table table-head-fixed text-nowrap">
+                    <thead style="position:sticky; top:0px;background-color:#4DA4B2;">
                             <tr>
                                 <th>
                                     @Html.DisplayNameFor(model => model.Personel_Details[0].Name)

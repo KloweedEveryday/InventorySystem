@@ -5,8 +5,8 @@
     ViewData["Title"] = "Details";
 }
 
-<div class="index">
-<h1>Details</h1>
+<div class="index" style="position:absolute; top: 5px;width: 60%;left:7%; top:-20px">
+    <h1>Details</h1>
 
 <div>
     <h4>DeliveredDetails</h4>
@@ -51,7 +51,7 @@
     </dl>
 </div>
 <div>
-    <a asp-page="./Edit" asp-route-id="@Model.DeliveredDetails?.ID">Edit</a> |
-    <a asp-page="./Index">Back to List</a>
+        <a asp-page="./Edit" class="btn btn-primary" asp-route-id="@Model.DeliveredDetails?.ID">Edit</a> |
+        <a asp-page="./Index" class="btn btn-primary">Back to List</a>
 </div>
 </div>
