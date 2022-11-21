@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Other computers\\Office Unit\\SCHOOLYARN\\2022-2023\\PROEL2\\FINALS\\InventorySystem(Exp)\\InventoryManagement\\InventoryManagement.csproj": {}
+    "C:\\Users\\ADMIN\\Documents\\GitHub\\InventorySystem\\InventoryManagement\\InventoryManagement.csproj": {}
   },
   "projects": {
-    "H:\\Other computers\\Office Unit\\SCHOOLYARN\\2022-2023\\PROEL2\\FINALS\\InventorySystem(Exp)\\InventoryManagement\\InventoryManagement.csproj": {
+    "C:\\Users\\ADMIN\\Documents\\GitHub\\InventorySystem\\InventoryManagement\\InventoryManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Other computers\\Office Unit\\SCHOOLYARN\\2022-2023\\PROEL2\\FINALS\\InventorySystem(Exp)\\InventoryManagement\\InventoryManagement.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Documents\\GitHub\\InventorySystem\\InventoryManagement\\InventoryManagement.csproj",
         "projectName": "InventoryManagement",
-        "projectPath": "H:\\Other computers\\Office Unit\\SCHOOLYARN\\2022-2023\\PROEL2\\FINALS\\InventorySystem(Exp)\\InventoryManagement\\InventoryManagement.csproj",
+        "projectPath": "C:\\Users\\ADMIN\\Documents\\GitHub\\InventorySystem\\InventoryManagement\\InventoryManagement.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "H:\\Other computers\\Office Unit\\SCHOOLYARN\\2022-2023\\PROEL2\\FINALS\\InventorySystem(Exp)\\InventoryManagement\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN\\Documents\\GitHub\\InventorySystem\\InventoryManagement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

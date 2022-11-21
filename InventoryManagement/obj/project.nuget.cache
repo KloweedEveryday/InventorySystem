@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O2KplUVEP+6hoIfK/I64JXHaPKu46FxZ+Jy04Y33lmpCqYRhFMoc0tos7CnF8Yp5jnPZbZ553em2ljAAQk5F0w==",
+  "dgSpecHash": "s7J9Y0r6kl+zwoRikfbccjQezdZMBuzas/eMICrtfTRUQSCH+/S8HMvYB/oRWvm9h4lKzwkJn3EyRHKBoBla9A==",
   "success": true,
-  "projectFilePath": "H:\\Other computers\\Office Unit\\SCHOOLYARN\\2022-2023\\PROEL2\\FINALS\\InventorySystem(Exp)\\InventoryManagement\\InventoryManagement.csproj",
+  "projectFilePath": "C:\\Users\\ADMIN\\Documents\\GitHub\\InventorySystem\\InventoryManagement\\InventoryManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\fontawesome\\4.0.3\\fontawesome.4.0.3.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\fontawesome.mvc\\1.0.0\\fontawesome.mvc.1.0.0.nupkg.sha512",
