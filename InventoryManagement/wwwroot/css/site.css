@@ -34,6 +34,10 @@ body {
     padding: 45px;
     padding-top: 100px;
 }
+.ContainerLeft a:hover, .ContainerLeft a::after {
+    transition-duration: .5s;
+    text-shadow: 2px 2px 2px white;
+}
 
 .ContainerRight {
     overflow: hidden;
@@ -47,6 +51,10 @@ body {
     padding: 45px;
     padding-top: 100px;
     font-size: 20px;
+}
+button:hover {
+    transition-duration: .5s;
+    box-shadow: 2px 2px 2px white;
 }
 
 .create-container {
@@ -76,7 +84,8 @@ body {
     margin: 0px;
 }
 
-    .icons i {
+
+.icons i {
         margin-bottom: 5px;
         font-size: 40px;
     }
@@ -110,8 +119,15 @@ ul li {
     text-decoration: none;
     color: #4FA9B8;
     margin-right: 55px;
+    padding:10px;
     font-size: 20px;
     font-family: 'Sans Serif Collection';
+}
+ul li:hover {
+    box-shadow: 5px 5px 10px black;
+}
+li a:hover {
+    color: #4FA9B8;
 }
     ul li:hover {
         margin-right: 55px;

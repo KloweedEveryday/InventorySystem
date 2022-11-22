@@ -12,5 +12,9 @@
     <WebStackScaffolding_DbContextTypeFullName>InventoryManagement.Data.InventoryManagementContext</WebStackScaffolding_DbContextTypeFullName>
     <RazorPage_SelectedScaffolderID>RazorPageScaffolder</RazorPage_SelectedScaffolderID>
     <RazorPage_SelectedScaffolderCategoryPath>root/Common/RazorPage</RazorPage_SelectedScaffolderCategoryPath>
+    <ActiveDebugProfile>InventoryManagement</ActiveDebugProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>
