@@ -16,6 +16,9 @@ namespace InventoryManagement.Data
 
         public DbSet<Beverages_Softdrinks_InventorySystem.Models.Personel_Details> Personel_Details { get; set; } = default!;
 
+        private DbSet<InventoryManagementContext> dATAS;
+
         public DbSet<Beverages_Softdrinks_InventorySystem.Models.DeliveredDetails> DeliveredDetails { get; set; }
+        public DbSet<InventoryManagementContext> DATAS { get => dATAS; set => dATAS = value; }
     }
 }
