@@ -152,12 +152,25 @@ ul li {
 .person {
     background-color: #4FA9B8;
     height: 350px;
-    margin:25px;
-    border-radius:20px;
+    margin: 25px;
+    border-radius: 20px;
+    transition-duration: .5s;
+}
+.person:hover,.person:hover::after {
+    background-color: #4FA9B8;
+    height: 350px;
+    margin: 25px;
+    border-radius: 20px;
+    transition-duration:.5s;
+    box-shadow: 5px 5px 5px white;
+}
+.person i:hover, .person i:hover::after {
+    transition-duration: .3s;
+    text-shadow: 2px 2px 2px white;
 }
 
-img{
-    height:50%;
-    width:90%;
+img {
+    height: 50%;
+    width: 90%;
 }
 

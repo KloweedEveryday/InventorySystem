@@ -2465,4 +2465,3 @@ G:\Other computers\Office Unit\SCHOOLYARN\2022-2023\PROEL2\FINALS\InventorySyste
 G:\Other computers\Office Unit\SCHOOLYARN\2022-2023\PROEL2\FINALS\InventorySystem(Exp)\InventoryManagement\obj\Debug\net6.0\InventoryManagement.genruntimeconfig.cache
 G:\Other computers\Office Unit\SCHOOLYARN\2022-2023\PROEL2\FINALS\InventorySystem(Exp)\InventoryManagement\obj\Debug\net6.0\ref\InventoryManagement.dll
 C:\Users\ADMIN\Documents\GitHub\InventorySystem\InventoryManagement\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\DNTS\Documents\GitHub\InventorySystem\InventoryManagement\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
