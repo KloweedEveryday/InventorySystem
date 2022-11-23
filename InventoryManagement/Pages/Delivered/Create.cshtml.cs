@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Beverages_Softdrinks_InventorySystem.Models;
 using InventoryManagement.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace InventoryManagement.Pages.Delivered
 {
@@ -18,9 +19,13 @@ namespace InventoryManagement.Pages.Delivered
         {
             _context = context;
         }
-
+        public IList<Personel_Details> Personel_Details { get; set; } = default!;
         public IActionResult OnGet()
         {
+            if (_context.Personel_Details != null)
+            {
+                Personel_Details = _context.Personel_Details.ToList();
+            }
             return Page();
         }
 

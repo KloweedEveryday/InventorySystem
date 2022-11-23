@@ -2740,3 +2740,4 @@ C:\Users\KloweedEveryday\Documents\InventorySystem\InventoryManagement\obj\Debug
 C:\Users\KloweedEveryday\Documents\InventorySystem\InventoryManagement\obj\Debug\net6.0\InventoryManagement.pdb
 C:\Users\KloweedEveryday\Documents\InventorySystem\InventoryManagement\obj\Debug\net6.0\InventoryManagement.genruntimeconfig.cache
 C:\Users\KloweedEveryday\Documents\InventorySystem\InventoryManagement\obj\Debug\net6.0\ref\InventoryManagement.dll
+C:\Users\DNTS\Documents\GitHub\InventorySystem\InventoryManagement\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll

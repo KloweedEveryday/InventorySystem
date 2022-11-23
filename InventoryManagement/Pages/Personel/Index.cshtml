@@ -4,9 +4,6 @@
 @{
     ViewData["Title"] = "Index";
 }
-@{
-    Models.Proccess proc = new Models.Proccess();
-}
 <script src="https://kit.fontawesome.com/2af456f012.js" crossorigin="anonymous"></script>
    <header>
         <nav class="navbar navbar-expand-lg p-4" style="position:absolute; right:0px;">
@@ -65,10 +62,6 @@
                                 <tr>
                                     <td>
                                         @Html.DisplayFor(modelItem => item.Name)
-                                        @{
-                                            string name = item.Name.ToString();
-                                            proc.ProccessList.Add(name);
-                                        }
                                     </td>
                                     <td>
                                         @Html.DisplayFor(modelItem => item.Age)
